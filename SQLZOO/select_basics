@@ -1,0 +1,8 @@
+-- SQLZOO is a page where one can practice SQL
+-- https://sqlzoo.net/wiki/SELECT_basics
+
+-- Introducing the world table of countries
+#Q1 The example uses a WHERE clause to show the population of 'France'. Note that strings (pieces of text that are data) should be in 'single quotes';
+#A1 
+SELECT population FROM world
+WHERE name = 'Germany'
